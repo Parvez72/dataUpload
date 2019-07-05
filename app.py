@@ -3,8 +3,8 @@ import requests
 import json
 from datetime import datetime
 
-BOTID = "x1532195756954"
-#BOTID = "x1546498486933"
+#BOTID = "x1532195756954"
+BOTID = "x1546498486933"
 TABLE = "renewal_payment_pay_now_links"
 TOKEN = "acb18aa600b8d11cbc9e8cff372b3b66c2d1506e2c287b59167f49f6d8929c2d"
 URL = "https://app.yellowmessenger.com/api/data/datastore/bulk-insert"
