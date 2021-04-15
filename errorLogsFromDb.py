@@ -8,10 +8,10 @@ else:
 	tableName = sys.argv[2]
 	query = sys.argv[3]
 	USER_COOKIE = sys.argv[1]
-	BOTID = "x1532195756954"
+	BOTID = ""
 	import requests
 
-	url = "https://app.yellowmessenger.com/api/data/data/search/"+ tableName +"/0-12"
+	url = EndPoint + "/api/data/data/search/"+ tableName +"/0-12"
 
 	querystring = {"bot": BOTID,"field":"*","query": query}
 
